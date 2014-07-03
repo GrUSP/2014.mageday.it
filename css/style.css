@@ -85,6 +85,29 @@ p.desc {
 
 img { max-width: 100%; }
 
+.submit {
+    font: bold 16px/30px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    cursor: pointer;
+    color: #f57c1a;
+    background: #fff;
+    padding: 20px 28px;
+    border: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.submit:hover {
+    color:#fff;
+    background:#111;
+}
+
 
 
 	/*---------------------------------------------------
@@ -333,7 +356,7 @@ img { max-width: 100%; }
 
 	#section-testimonials {
 		color: #fff;
-		background: #111 url('../images/bg_gradient.jpg') no-repeat center center;
+		background: #f57c1a;
 		font: normal 12px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 		padding: 60px 0;
 	}
@@ -344,7 +367,7 @@ img { max-width: 100%; }
 		}
 
 		#section-testimonials p.desc {
-			color: #f57c1a;
+			color: #fff;
 			margin-bottom: 50px;
 		}
 
@@ -627,28 +650,7 @@ img { max-width: 100%; }
 			background-color: #f57c1a;
 		}
 		
-		#section-register button.submit {
-			font: bold 20px/30px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-			text-transform: uppercase;
-			letter-spacing: 4px;
-			display: block;
-			cursor: pointer;
-			color:#fff;
-			background:#f57c1a;
-			padding: 20px 28px;
-			border: none;
-			-moz-border-radius: 3px;
-			-webkit-border-radius: 3px;
-			-khtml-border-radius: 3px;
-			border-radius: 3px;
-		}
-		
-		#section-register button.submit:hover { 
-			color: #f57c1a;
-			background: #fff; 
-		}
-		
-		#section-register span.required { 
+		#section-register span.required {
 			color: #f57c1a;
 			font-size: 13px;  
 		} /* Select the color of the * if the field is required. */
