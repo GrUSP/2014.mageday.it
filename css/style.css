@@ -40,8 +40,8 @@ body {
 --------------------------------------------------------------------------*/
 
 /* Links */
-a, a:visited { color: #333; text-decoration: none; outline: 0; }
-a:hover, a:focus { color: #000; }
+a, a:visited { color: #f57c1a; text-decoration: underline; outline: 0; }
+a:hover, a:focus { color: #f57c1a; }
 p a, p a:visited { line-height: inherit; }
 
 /* Font stylings */
@@ -281,7 +281,7 @@ img { max-width: 100%; }
 			#section-speakers .item h3 {
 				color: #333;
 				font: normal 18px/30px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-				margin-top: 10px;
+				margin-top: -14px;
 			}
 
 				/* Speaker title */
@@ -296,7 +296,7 @@ img { max-width: 100%; }
 				}
 
 			#section-speakers .item p {
-				font: normal 13px/26px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font: normal 13px/20px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 				color: #333;
 				margin-top: 10px;
 			}
@@ -733,9 +733,7 @@ img { max-width: 100%; }
 	---------------------------------------------------*/
 
 	#section-map {
-		height: 500px;
-		position: relative;
-		overflow: hidden;
+		padding: 60px 0;
 	}
 
 		#section-map #box-map {
