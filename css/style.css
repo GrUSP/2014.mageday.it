@@ -762,7 +762,7 @@ img { max-width: 100%; }
 	---------------------------------------------------*/
 
 	#section-sponsors {
-		color: #333;
+		color: #fff;
 		background: #111;
 		padding: 60px 0 40px;
 	}
@@ -772,9 +772,27 @@ img { max-width: 100%; }
 			margin-bottom: 20px;
 		}
 
+        #section-sponsors h3 {
+            font: bold 20px/36px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
 		#section-sponsors img {
 			margin-bottom: 20px;
 		}
+
+        #section-sponsors ul {
+            font-size: 14px;
+            line-height: 22px;
+            list-style: disc outside none;
+            padding-left: 20px;
+            margin-left: 0;
+        }
+        #section-sponsors li {
+            padding-left: 0.3em;
+            margin-bottom: 0.5em;
+        }
 
 
 
