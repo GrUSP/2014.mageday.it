@@ -85,6 +85,7 @@ p.desc {
 
 img { max-width: 100%; }
 
+.submit2,
 .submit {
     font: bold 16px/30px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -103,10 +104,20 @@ img { max-width: 100%; }
     text-align: center;
 }
 
+.submit2 {
+    background:#111;
+}
+
 .submit:hover {
     color:#fff;
     background:#111;
 }
+
+.submit2:hover {
+    color:#fff;
+    background:#f57c1a;;
+}
+
 
 
 
@@ -278,7 +289,8 @@ img { max-width: 100%; }
 		3.3 Speakers
 	---------------------------------------------------*/
 
-	#section-speakers {
+	#section-workshop,
+    #section-speakers {
 		color: #333;
 		background: #fff;
 		padding: 60px 0;
