@@ -775,8 +775,10 @@ img { max-width: 100%; }
 	---------------------------------------------------*/
 
 	#section-sponsors {
-		color: #fff;
-		background: #111;
+		/*color: #fff;*/
+		/*background: #111;*/
+        color: #111;
+        background: #fff;
 		padding: 60px 0 40px;
 	}
 
