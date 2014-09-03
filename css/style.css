@@ -370,7 +370,6 @@ img { max-width: 100%; }
 	#section-testimonials {
 		color: #fff;
 		background: #f57c1a;
-		font: normal 12px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 		padding: 60px 0;
 	}
 
@@ -863,4 +862,36 @@ img { max-width: 100%; }
 
 :-moz-placeholder {  
 	color: #f57c1a;
+}
+
+/*--------------------------------------------------------------------------
+   5. Mosc
+--------------------------------------------------------------------------*/
+.certified {
+    padding-left:80px;
+    background:url('../images/magento-cd-badge.png') no-repeat 0 0;
+}
+
+h3 {
+    font: bold 16px/28px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
+}
+
+dl {
+    font: normal 14px/26px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+dt {
+    font-weight:bold;
+}
+
+dd {
+    display:block;
+    margin-left:1em;
+}
+
+.highlight {
+    background: #feff96;padding:0.15em 0.45em;
 }
