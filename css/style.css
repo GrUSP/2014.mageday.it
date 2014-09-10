@@ -895,3 +895,13 @@ dd {
 .highlight {
     background: #feff96;padding:0.15em 0.45em;
 }
+
+#section-sponsors .sponsor {
+    display: inline-block;
+    width:100%;
+}
+
+#section-sponsors .sponsor img {
+    max-width: none;
+    width:100%;
+}
