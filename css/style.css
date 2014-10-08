@@ -540,6 +540,7 @@ img { max-width: 100%; }
 				
 				#section-programs table tbody td.column-first {
 					border-left: 1px solid #eee;
+                    white-space: nowrap;
 				}
 				
 				#section-programs table tbody td.column-second {
@@ -568,6 +569,7 @@ img { max-width: 100%; }
 
 			#section-programs table td {
 				padding: 20px;
+                vertical-align:top;
 			}
 			
 			#section-programs table tfoot td {
@@ -904,4 +906,12 @@ dd {
 #section-sponsors .sponsor img {
     max-width: none;
     width:100%;
+}
+
+.small {
+    font-size:90%;
+}
+
+span.role {
+    font-size:80%;
 }

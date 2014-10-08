@@ -89,5 +89,6 @@ $(document).ready(function(){
 	$('table tr').each(function () {
 		$(this).find('td:eq(0)').addClass('column-first');;
 		$(this).find('td:eq(1)').addClass('column-second');;
+		$(this).find('td:eq(2)').addClass('column-first');;
 	});
 });
